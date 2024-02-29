@@ -2,7 +2,7 @@
 import { Container, Grid, Typography } from '@mui/material';
 import Form from './components/Form';
 import { NewsProvider } from './context/NewsProvider';
-
+import List from './components/List';
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
               News
             </Typography>
           </header>
-      
+     
 
           <Grid
             container
@@ -28,7 +28,11 @@ function App() {
               <Grid item xs={12} md={6}>
                 <Form />
               </Grid>
-          </Grid>
+        </Grid>
+        
+        <List />
+        
+        
       </Container>
      </NewsProvider>
    
