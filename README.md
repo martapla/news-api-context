@@ -1,8 +1,22 @@
-# React + Vite
+# News Search App.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For this project I used the `API`: https://newsapi.org/
 
-Currently, two official plugins are available:
+##  👩‍🔧 Project Description 
+The app features a main `search input`, enabling users to select the type of news they want to read. 
+Upon selection, all corresponding cards are displayed. 
+Clicking the `read more` button in each card opens a new tab with the news link.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  🗝 Key Features
+-__News Search__: Using the main search input to select news preferences.
+-__Responsive Interface__: User interface adapts to various screen sizes.
+-__News Details__: Access additional details by clicking the "read more" button on each card.
+
+
+## 💻 Technologies Used
+-__React__: For creating a dynamic user interface.
+-__Vite__: For fast and efficient development.
+-__Context__: For effective state management.
+-__MUI__: UI Library.
+
+
