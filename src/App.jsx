@@ -6,7 +6,6 @@ import List from './components/List';
 
 function App() {
   
-
   return (
  
     <NewsProvider>
@@ -18,23 +17,21 @@ function App() {
             </Typography>
           </header>
      
-
           <Grid
-            container
-            direction="row"
-            justifyContent="center"
-            alignItems="center"
-          >
-              <Grid item xs={12} md={6}>
-                <Form />
-              </Grid>
-        </Grid>
-        
-        <List />
-        
+              container
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+            >
+                <Grid item xs={12} md={6}>
+                  <Form />
+                </Grid>
+          </Grid>
+          
+          <List />
         
       </Container>
-     </NewsProvider>
+    </NewsProvider>
    
   )
 }

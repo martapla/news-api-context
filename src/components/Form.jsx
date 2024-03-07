@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { FormControl, InputLabel, Select, MenuItem, Button, Box } from '@mui/material';
+import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 import useNews from '../hooks/useNews';
 
 const Categories = [
@@ -33,9 +33,7 @@ const Form = () => {
                       </MenuItem>
                   ))}
               </Select>
-              <Box sx={{ p: 2, border: '2px'}}>
-                <Button fullWidth variant='contained' color="secondary" >Search news</Button>
-              </Box>
+             
           </FormControl> 
 
     </form>

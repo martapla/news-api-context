@@ -3,13 +3,10 @@ import { Grid, Typography } from '@mui/material';
 import useNews from '../hooks/useNews';
 import News from './News';
 
-
-
 const List = () => {
 
     const { newsapi } = useNews()
-    
-    console.log(newsapi)
+      console.log(newsapi)
 
     return (
         <>
@@ -20,7 +17,9 @@ const List = () => {
                 Latest News
             </Typography>
 
-            <Grid>
+            <Grid
+            container
+            spacing={2}>
 
                 {newsapi.map(noticia => (
                     <News
